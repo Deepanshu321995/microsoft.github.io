@@ -1,0 +1,83 @@
+*{
+	margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.hello{
+	width: 90%;
+	margin: 0 auto;
+}
+.logostyle{height: 28px;margin-top: -10px;}
+
+.carousel-inner img {
+    width: 100%;
+    height: 450px;
+  }
+
+ .carousel-item{
+ 	position: relative;
+ }
+ .carousel-caption{
+ 	position: absolute;
+ 	top:8%; left: 8%!important; 
+}
+
+.carousel-caption h3{text-align: left;}
+.carousel-caption p{text-align: left;}
+.carousel-caption button{
+	position: absolute;
+	left: 0;
+	padding: 10px 20px;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;background: white;
+}
+
+main{
+	margin: 40px 0;
+}
+.card{border: none!important;}
+.card-body{
+	padding: 5px 0!important;}
+}
+
+.inner{overflow: hidden;}
+.inner img{transition: all 1.5s ease;}
+.inner:hover img{
+	transform: scale(1.1);
+}
+.msbanner{
+	background-image: url('Images/banner.jpg');
+	width: 100%;height: 450px;
+	margin: 20px 0 40px 0;
+	color: white;
+	display: flex;flex-direction: column;justify-content: center;
+	align-items: flex-start;
+	padding: 70px;
+	padding-top: 20px;
+}
+.mstore button{
+	left: 0;
+	padding: 10px 20px;
+	border: none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.socialmedia{
+	margin-top: 40px;margin-bottom: 40px
+}
+.fa-youtube-square{color: red;}
+
+footer{
+	background: #f2f2f2;
+	padding: 40px 0;
+}
+footer li{
+	list-style: none;font-size: 14px;
+}
+footer a{
+	text-decoration: none;
+	color: #818181;
+}
+
+footer:hover li{text-underline-position;}
